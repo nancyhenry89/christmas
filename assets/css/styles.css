@@ -1,8 +1,8 @@
 :root{--textcolor:#fff;--main-font:'Open Sans',sans-serif}
 body{font-family:var(--main-font);color:var(--textcolor)}
 img{max-width:100%}
-.bg{background: url(../imgs/bg.png);background-size: 100%!important;min-height:100vh;padding:0;position:relative;}
-.content{/* background:rgba(254,255,255,0.8); *//* max-width:628px; */text-align:center;padding-bottom:60px;min-height:100vh;}
+.bg{background: url(../imgs/bg.png);background-size: cover!important;min-height:100vh;padding:0;position:relative;}
+.content{/* background:rgba(254,255,255,0.8); */max-width: 950px;text-align:center;padding-bottom: 0px;/* min-height:100vh; */padding-left: 384px;}
 .popup-title{background:#fff;width:290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
@@ -19,16 +19,93 @@ img{max-width:100%}
 .pick-btn:hover{background:#37f5f3;color:#fff}
 .popup-outer{float:left;width:100%;height:50px}
 #step2{display:none}
-::-webkit-input-placeholder{color:#56751a}
-::-moz-placeholder{color:#56751a}
-:-ms-input-placeholder{color:#56751a}
-:-moz-placeholder{color:#56751a}
+::-webkit-input-placeholder{color:#202020}
+::-moz-placeholder{color:#202020}
+:-ms-input-placeholder{color:#202020}
+:-moz-placeholder{color:#202020}
+.form-check-input {
+    float: left;
+}
+
+label.form-check-label {
+    float: left;
+    width: calc(100% - 15px);
+    padding-left: 8px;
+    font-size: 9px;
+}
+
+.form {
+    padding-right: 23px;
+}
+
+.form-check {
+    margin-top: 12px;
+}
+
+
+
+.checkboxes a {
+    color: #fff;
+}
+
+.note {
+    float: left;
+    font-size: 9pX;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.note a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.free .text {
+    margin-left: -6px;
+}
 .free{
     background: url(../imgs/btn.png);
     border: 0;
-    width: 260px;
+    width: 302px;
     background-size: 100%;
-    height: 70px;
+    height: 86px;
+    font-size: 26px;
+    line-height: 81px;
+    font-weight: bold;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.row.form-cont {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    padding-left: 17px;
+}
+
+.quest {
+    color: #202020;
+    font-size: 18px;
+}
+
+.quest+p {
+    color: #202020;
+    font-size: 18px;
+    font-weight: bold;
+    word-spacing: 3px;
+    margin-top: 4px;
+}
+
+.field-cont input {
+    box-shadow: 0px 0px 1px #f4b81d;
+    border: 0;
+    margin-top: 6px;
+    width: 100%;
+    height: 35px;
+    background: #bababb;
+    padding: 0 18px;
+    margin-bottom: 4px;
 }
 @media screen and (max-width:767px) {
 .popup-outer{height:30px}
@@ -40,6 +117,31 @@ img{max-width:100%}
 .popup h2{margin-bottom:5px}
 .popup .wrp{padding:14px 7px}
 
+}
+p.slogan {
+    margin-top: 229px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container-fluid.content>div {
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+    color: #202020;
+    padding-bottom: 30px;
+}
+
+.slogan span.sp {
+    font-weight: bolder;
+    text-shadow: 3px 0px 0px #ffffff, -3px 1px 0px #f4b81d;
+}
+.form p {
+    margin-top: 9px;
+    font-size: 10px;
 }
 @media screen and (max-width:768px) {
 
