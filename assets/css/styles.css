@@ -68,7 +68,7 @@ footer{height:20px;padding:0;margin-top:50px}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
-.free{height:80px}
+.free{height: 106px;}
 }
 @media screen and (min-width: 1400px) {
 .popup-title{font-size:13px;width:310px;height:34px}
@@ -110,7 +110,6 @@ img{max-width:100%}
 .form-check{margin-top:12px}
 .checkboxes a{color:#fff}
 .note a{color:#fff;text-decoration:underline}
-.free .text{margin-left:-6px}
 .row.form-cont{width:70%;text-align:left;margin:auto;padding-left:17px}
 .slogan span.sp{font-weight:bolder;text-shadow:3px 0 0 #ffffff,-3px 1px 0 #f4b81d}
 @media screen and (max-width:768px) {
@@ -170,7 +169,6 @@ img{max-width:100%}
 .checkboxes a{color:#fff}
 .note{float:left;font-size:9pX;margin-top:10px;margin-bottom:13px}
 .note a{color:#fff;text-decoration:underline}
-.free .text{margin-left:-6px}
 .row.form-cont{width:70%;text-align:left;margin:auto;padding-left:17px}
 .quest{color:#202020;font-size:18px}
 .quest+p{color:#202020;font-size:18px;font-weight:700;word-spacing:3px;margin-top:4px}
@@ -206,6 +204,9 @@ footer{height:20px;padding:0;margin-top:50px}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
+}
+@media screen and (max-width:360px){
+    .free{height: 95px;}
 }
 @media screen and (min-width: 1400px) {
 .popup-title{font-size:13px;width:310px;height:34px}
@@ -247,7 +248,6 @@ img{max-width:100%}
 .form-check{margin-top:12px}
 .checkboxes a{color:#fff}
 .note a{color:#fff;text-decoration:underline}
-.free .text{margin-left:-6px}
 .row.form-cont{width:70%;text-align:left;margin:auto;padding-left:17px}
 .slogan span.sp{font-weight:bolder;text-shadow:3px 0 0 #ffffff,-3px 1px 0 #f4b81d}
 @media screen and (max-width:768px) {
