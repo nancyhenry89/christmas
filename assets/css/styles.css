@@ -25,6 +25,10 @@ img{max-width:100%}
 :-moz-placeholder{color:#202020}
 .form-check-input {
     float: left;
+    -webkit-box-shadow: 0px 0px 3px 0px rgb(148, 40, 40);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+    box-shadow: 0px 0px 3px 0px rgb(156, 50, 50);
+    margin-top: -1px!important;
 }
 
 label.form-check-label {
@@ -155,5 +159,25 @@ footer {
 @media screen and (min-width: 1400px) {
 
 .popup-title{font-size:13px;width:310px;height:34px}
+p.slogan{font-size:41px;margin-bottom: 6px;margin-top: 290px;}
+.content{
+    min-width: 1300px;
+    padding-left: 530px;
+}
+.bg {
+    background-position: center;
+}
+.quest{font-size:24px}
+.quest+p{font-size:24px}
 
+.field-cont input {
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+label.form-check-label{font-size:13px}
+.form p{font-size:14px}
+.note{font-size:13px}
+.free{width:400px;height: 115px;}
+footer{font-size:16px}
 }
